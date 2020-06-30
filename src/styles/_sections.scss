@@ -25,18 +25,21 @@
 
 .footer {
   height: 12%;
+  width: 100vw;
   text-align: center;
   position: absolute;
   bottom: 0;
   display: flex;
   flex-direction: column;
-
   .graphic {
-    width: 100vw;
-    height: 100%;
-    background-image: url("/desktop/mezcal_footer.png");
-    background-repeat: no-repeat;
+      height: 100%;
+      background-image: url("/desktop/mezcal_footer.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: left bottom;
   }
 }
+
+
 
 

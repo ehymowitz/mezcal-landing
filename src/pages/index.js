@@ -19,7 +19,7 @@ export default function Home() {
         <Form/>
       </div>
       <div className="footer">
-        <p>© 2020 Mezcal,Inc. Made with love in MTL. (I can change "love" to a heart if we want). This graphic also isn't great for responsiveness, will need different sizes</p>
+        <p>© 2020 Mezcal,Inc. Made with love in MTL. (I can change "love" to a heart if we want)</p>
         <div className="graphic"></div>
       </div>
     </div>
