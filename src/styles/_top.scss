@@ -1,5 +1,15 @@
 .link {
   min-width: 21%;
+  transition: 500ms;
+  filter: grayscale(0%);
+}
+
+.bistro:hover {
+  filter: grayscale(100%);
+}
+
+.cafe:hover {
+  transform: scale(0.95);
 }
 
 .gatsby-image-wrapper {
