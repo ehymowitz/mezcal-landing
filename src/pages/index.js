@@ -3,18 +3,16 @@ import Bistro from '../components/bistro'
 import Cafe from '../components/cafe'
 import Form from '../components/form'
 
-
 export default function Home() {
   return (
-    <div className="Container">
-      <div className="Top">
-        <Bistro/>
-        <Cafe/>
+    <div className="container">
+      <div className="top">
+        <Bistro />
+        <Cafe />
       </div>
-      <div className="Form">
+      <div className="form">
         <Form/>
       </div>
     </div>
-
   )
 }
