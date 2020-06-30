@@ -19,6 +19,10 @@ export default function Bistro() {
       render={data => (
         <div className="link">
           <Img fluid={data.bistro.childImageSharp.fluid} />
+          <p>
+            Add hover effects?
+          </p>
+
         </div>
       )}
     />

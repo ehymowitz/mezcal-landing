@@ -3,9 +3,40 @@
   margin: 0;
 }
 
+.container {
+  min-height: 100vh;
+}
+
+.logo {
+  margin: 0 auto;
+  text-align: center;
+  height: 10%;
+}
+
 .top {
+  height: 48%;
   display: flex;
   justify-content: center;
+}
+
+.form {
+  height: 30%;
+}
+
+.footer {
+  height: 12%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+
+  .graphic {
+    width: 100vw;
+    height: 100%;
+    background-image: url("/desktop/mezcal_footer.png");
+    background-repeat: no-repeat;
+  }
 }
 
 

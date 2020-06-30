@@ -19,6 +19,7 @@ export default function Cafe() {
       render={data => (
         <div className="link">
           <Img fluid={data.cafe.childImageSharp.fluid} />
+          <p>Need url for site to link to</p>
         </div>
       )}
     />
