@@ -7,13 +7,14 @@ import { FaHeart } from "react-icons/fa";
 export default function Home() {
   return (
     <div className="container">
-      <div className="logo" >
+      <div className="logo-container">
+        <div className="logo"></div>
       </div>
       <div className="top">
         <Bistro />
         <Cafe />
       </div>
-      <div className="form">
+      <div>
         <Form/>
       </div>
       <div className="footer-graphic">

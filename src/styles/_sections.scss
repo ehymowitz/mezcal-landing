@@ -4,24 +4,36 @@
   font-family: 'Monserrat', sans-serif;
 }
 
+body {
+  background: rgb(245, 245, 245);
+}
+
 p {
   font-size: 1em;
   font-weight: 400;
 }
 
-.logo {
-  min-height: 25px;
-  width: 20%;
-  background-image: url("/desktop/Mezcal_logo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  margin: 3% auto;
+.logo-container {
+  background: rgb(250, 250, 250);
+  display: flex;
+  justify-content: center;
+
+  .logo {
+    min-height: 25px;
+    width: 100%;
+    background-image: url("/desktop/Mezcal_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 3% auto;
+  }
 }
 
 .top {
   display: flex;
   justify-content: center;
+  background: rgb(250, 250, 250);
+  padding-bottom: 5%;
 }
 
 .footer-graphic {

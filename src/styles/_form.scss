@@ -1,0 +1,15 @@
+.form-container{
+  padding: 2% 20%;
+  h1 {
+    font-weight: 400;
+  }
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    input {
+      padding: 10px;
+      background: none;
+      border: none;
+    }
+  }
+}
