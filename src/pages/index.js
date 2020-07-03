@@ -7,15 +7,17 @@ import { FaHeart } from "react-icons/fa";
 export default function Home() {
   return (
     <div className="container">
-      <div className="logo-container">
-        <div className="logo"></div>
-      </div>
-      <div className="top">
-        <Bistro />
-        <Cafe />
-      </div>
-      <div className="form">
-        <Form/>
+      <div className="content-container">
+        <div className="logo-container">
+          <div className="logo"></div>
+        </div>
+        <div className="top">
+          <Bistro />
+          <Cafe />
+        </div>
+        <div className="form">
+          <Form/>
+        </div>
       </div>
       <div className="footer-graphic">
         <p>© 2020 Mezcal, Inc. Made with <FaHeart/> in MTL.</p>

@@ -5,7 +5,7 @@ export default function Form() {
     <div className="form-container">
       <h1>Reservation</h1>
       <form>
-        <div className="column">
+        <div className="column left">
           <label>
             <input type="text" placeholder="Name (nom)" />
           </label>
@@ -29,7 +29,7 @@ export default function Form() {
             <input type="text" placeholder="Email (courierélectronique)" />
           </label>
           <div className="submit-holder">
-            <button type="submit"><p>Submit</p></button>
+            <button type="submit"><h2>Submit</h2></button>
           </div>
         </div>
       </form>

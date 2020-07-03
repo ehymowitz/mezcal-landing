@@ -13,6 +13,11 @@ p {
   font-weight: 400;
 }
 
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
 .logo-container {
   background: rgb(250, 250, 250);
   display: flex;
@@ -36,19 +41,19 @@ p {
   padding-bottom: 2%;
 }
 
-.form {
-  padding-bottom: 80px;
+.content-container {
+  padding-bottom: 85px;
 }
 
 .footer-graphic {
-  width: 100vw;
+  height: 75px;
+  width: 100%;
   text-align: center;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   display: flex;
   flex-direction: column;
   .graphic {
-      min-height: 50px;
       height: 100%;
       background-image: url("/desktop/Mezcal_Footer.svg");
       background-repeat: no-repeat;
