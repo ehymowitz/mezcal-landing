@@ -14,7 +14,7 @@ export default function Home() {
         <Bistro />
         <Cafe />
       </div>
-      <div>
+      <div className="form">
         <Form/>
       </div>
       <div className="footer-graphic">
