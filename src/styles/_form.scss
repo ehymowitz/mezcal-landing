@@ -1,7 +1,6 @@
 .form-container{
   padding: 2% 29%;
   h1 {
-    margin-left: 8%;
     font-weight: 400;
     margin-bottom: 15px;
   }
@@ -63,6 +62,21 @@
           outline: none;
         }
       }
+    }
+  }
+}
+
+@media only screen and (min-width: $Laptops-big) {
+  .form-container{
+    padding: 2% 25%;
+  }
+  .form-container form .column{
+    button {
+      font-size: 1.3em;
+    }
+    label input {
+      font-weight: 300;
+      font-size: 2em;
     }
   }
 }
