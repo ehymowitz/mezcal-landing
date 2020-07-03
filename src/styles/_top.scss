@@ -16,3 +16,23 @@
   max-height: 100%;
   width: 100%;
 }
+
+@media only screen and (max-width: $Laptops) {
+  .link {
+    min-width: 28%;
+  }
+}
+
+@media only screen and (max-width: $Tablets) {
+  .link {
+    min-width: 45%;
+  }
+}
+
+@media only screen and (max-width: $Phones) {
+  .link {
+    height: 28%;
+  }
+  .gatsby-image-wrapper {
+  }
+}

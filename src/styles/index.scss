@@ -1,9 +1,18 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,500&display=swap');
 
+// Breakpoints (max width)
+$Laptops: 1200px;
+$Tablets: 925px;
+$Phones: 500px;
+
+// Breakpoints (min width)
+$Laptops-big: 1920px;
+
 // Top Level
 @import './sections.scss';
 
 // Components
 @import './top.scss';
 @import './form.scss';
+
