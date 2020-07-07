@@ -1,7 +1,7 @@
 import React from "react"
 import Bistro from "../components/bistro"
 import Cafe from "../components/cafe"
-import Form from "../components/form"
+import FormPage from "../components/form"
 import { FaHeart } from "react-icons/fa"
 import Container from "../components/container"
 
@@ -17,7 +17,7 @@ export default function Home() {
           <Cafe />
         </div>
         <div className="form">
-          <Form/>
+          <FormPage/>
         </div>
       </div>
       <div className="footer-graphic">
