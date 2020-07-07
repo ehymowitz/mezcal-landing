@@ -2,11 +2,6 @@ import React from "react"
 import { Form, Text } from 'informed'
 import { useEffect } from 'react'
 
-// My test sheet data
-const SPREADSHEET_ID = "d/1T1AHrrpgwU0ML_vylTmwo5tQ2yKKx0-vpnbouvzTCmw";
-const CLIENT_ID = "762555808150-mcnp2fvt1co819v0kc0fg7uts3ptp4ho.apps.googleusercontent.com";
-const API_KEY = "AIzaSyC7JOaPS5__dv8mQJymOSS3bBfwej5W1xo";
-const SCOPE = "https://www.googleapis.com/auth/spreadsheets";
 
 export default function FormPage() {
 
