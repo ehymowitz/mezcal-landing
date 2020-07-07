@@ -6,26 +6,26 @@ export default function Form() {
       <h1>Reservation</h1>
       <form>
         <div className="column left">
-          <label>
-            <input type="text" placeholder="Name (nom)" />
+          <label htmlFor="name">
+            <input type="text" placeholder="Name (nom)"/>
           </label>
-          <label>
+          <label htmlFor="numberOfPeople">
             <input type="text" placeholder="Number of people (personnes)" />
           </label>
-          <label>
+          <label htmlFor="telephone">
             <input type="text" placeholder="Telephone" />
           </label>
         </div>
         <div className="column">
           <div className="date-time">
-            <label className="date">
+            <label className="date" htmlFor="date">
               <input type="text" placeholder="Date" />
             </label>
-            <label>
+            <label htmlFor="time">
               <input type="text" placeholder="Time (Heure)"/>
             </label>
           </div>
-          <label>
+          <label htmlFor="text">
             <input type="text" placeholder="Email (courierélectronique)" />
           </label>
           <div className="submit-holder">
