@@ -1,12 +1,13 @@
 import React from "react"
-import Bistro from '../components/bistro'
-import Cafe from '../components/cafe'
-import Form from '../components/form'
-import { FaHeart } from "react-icons/fa";
+import Bistro from "../components/bistro"
+import Cafe from "../components/cafe"
+import Form from "../components/form"
+import { FaHeart } from "react-icons/fa"
+import Container from "../components/container"
 
 export default function Home() {
   return (
-    <div className="container">
+    <Container>
       <div className="content-container">
         <div className="logo-container">
           <div className="logo"></div>
@@ -23,6 +24,6 @@ export default function Home() {
         <p>© 2020 Mezcal, Inc. Made with <FaHeart/> in MTL.</p>
         <div className="graphic"></div>
       </div>
-    </div>
+    </Container>
   )
 }
