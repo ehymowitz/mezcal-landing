@@ -13,6 +13,11 @@ p {
   font-weight: 400;
 }
 
+input[type="search"] {
+  border-radius: 0;
+  -webkit-appearance: none !important;
+}
+
 .container {
   position: relative;
   min-height: 100vh;
