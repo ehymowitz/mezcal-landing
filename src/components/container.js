@@ -6,7 +6,7 @@ export default function Container({ children }) {
     <div className="container">
       <Helmet defer={false} >
         <title>Mezcal</title>
-        <meta name="description" content= "NEED DESCRIPTION"/>
+        <meta name="Mezcal" content= "Cafe Mezcal: Best Mexican food in Montreal: 156, rue Prince Arthur E"/>
       </Helmet>
       {children}
     </div>
