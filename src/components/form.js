@@ -5,7 +5,7 @@ export default function FormPage() {
   return (
     <div className="form-container">
       <h1>Reservation</h1>
-      <form action="https://getform.io/f/a91d2b1a-de73-4077-bab3-484d98c5a324" method="POST">
+      <form action="https://getform.io/f/f77652c8-7564-439a-a7ed-8c0746707621" method="POST">
         <div className="column left">
           <label htmlFor="name">
             <input name="name" type="text" placeholder="Name (nom)"/>
