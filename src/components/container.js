@@ -6,7 +6,7 @@ export default function Container({ children }) {
     <div className="container">
       <Helmet defer={false} >
         <title>Mezcal</title>
-        <meta name="Mezcal" content= "Cafe Mezcal: Best Mexican food in Montreal: 156, rue Prince Arthur E"/>
+        <meta name="Mezcal Montreal" content= "Fresh Fish Tacos, Guacamole, Ceviche and Shrimp Cocktail. Also your regular homemade Mexican soup, burritos, nachos. Amazing Drinks!"/>
       </Helmet>
       {children}
     </div>
