@@ -89,11 +89,14 @@ input[type="text"] {
 
 @media only screen and (max-width: $Tablets) {
   .footer-graphic{
-    height: 50px
+    height: 60px
   }
 }
 
 @media only screen and (max-width: $Phones) {
+  .footer-graphic{
+    height: 40px
+  }
   .logo-container .logo {
     width: 25%;
   }
